@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  cloudflare-datadog:
+  - apiVersion: v1
+    created: 2017-03-16T22:27:54.01822161+08:00
+    description: A Helm chart for cloudflare-datadog service
+    digest: 76d78bc1a3fbea78bdb12dd91c77dfcc36f2ad3a581bdd7912174d1ec1f9138a
+    name: cloudflare-datadog
+    sources:
+    - https://github.com/mozmar/cloudflare-datadog
+    urls:
+    - https://honestbee.github.io/public-charts/cloudflare-datadog-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-03-16T22:27:54.017257289+08:00
