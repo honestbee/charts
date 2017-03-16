@@ -9,6 +9,6 @@ entries:
     sources:
     - https://github.com/mozmar/cloudflare-datadog
     urls:
-    - https://honestbee.github.io/public-charts/cloudflare-datadog-0.1.0.tgz
+    - http://tech.honestbee.com/public-charts/cloudflare-datadog-0.1.0.tgz
     version: 0.1.0
 generated: 2017-03-16T22:27:54.017257289+08:00
