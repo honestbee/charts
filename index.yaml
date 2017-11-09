@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   cloudflare-datadog:
   - apiVersion: v1
-    created: 2017-11-09T16:23:58.396134221+08:00
+    created: 2017-11-09T16:33:59.015787506+08:00
     description: A Helm chart for cloudflare-datadog service
     digest: 76d78bc1a3fbea78bdb12dd91c77dfcc36f2ad3a581bdd7912174d1ec1f9138a
     name: cloudflare-datadog
@@ -13,7 +13,7 @@ entries:
     version: 0.1.0
   hello-world:
   - apiVersion: v1
-    created: 2017-11-09T16:23:58.398499727+08:00
+    created: 2017-11-09T16:33:59.016622837+08:00
     description: Hello World chart for testing
     digest: 54f3ed3d1114872cbb72363e7088958465ca0adf28175b37656835c144f492c8
     keywords:
@@ -27,7 +27,7 @@ entries:
     - http://tech.honestbee.com/public-charts/hello-world-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2017-11-09T16:23:58.397301952+08:00
+    created: 2017-11-09T16:33:59.016173069+08:00
     description: Hello World chart for testing
     digest: 4964765a314a9456befd389dec400dc110ec9643ac87e48006029ab2dafb39cc
     keywords:
@@ -42,7 +42,7 @@ entries:
     version: 0.1.0
   portus:
   - apiVersion: v1
-    created: 2017-11-09T16:23:58.399809275+08:00
+    created: 2017-11-09T16:33:59.017218085+08:00
     description: Open Source Authorization Service and User Interface for Docker Registry.
     digest: 7b6a711d483c1c4b62b6d0280a04c9daf959833407f55ed42df9a85ff9ec6cdb
     home: http://port.us.org/
@@ -64,7 +64,7 @@ entries:
   vault:
   - apiVersion: v1
     appVersion: 0.7.3
-    created: 2017-11-09T16:23:58.400260403+08:00
+    created: 2017-11-09T16:33:59.017577918+08:00
     description: A Helm chart for Vault, a tool for managing secrets
     digest: 2eb1128213ef974930dfd1360809d6f85175f8e53de9634e2ac864fdc28ac66e
     home: https://www.vaultproject.io/
@@ -79,4 +79,12 @@ entries:
     urls:
     - http://tech.honestbee.com/public-charts/vault-0.1.0.tgz
     version: 0.1.0
-generated: 2017-11-09T16:23:58.393927037+08:00
+  vault-controller:
+  - created: 2017-11-09T16:33:59.017804329+08:00
+    description: Kubernetes Vault Controller
+    digest: a40bcfc033578a86fea04e8c743ab74a5d91c0c44a9f6fe3e6b58d1ea89c7d19
+    name: vault-controller
+    urls:
+    - http://tech.honestbee.com/public-charts/vault-controller-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-11-09T16:33:59.01535986+08:00
