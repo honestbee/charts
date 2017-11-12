@@ -2,18 +2,18 @@ apiVersion: v1
 entries:
   cloudflare-datadog:
   - apiVersion: v1
-    created: 2017-11-09T16:33:59.015787506+08:00
+    created: 2017-11-12T17:04:58.999359+08:00
     description: A Helm chart for cloudflare-datadog service
     digest: 76d78bc1a3fbea78bdb12dd91c77dfcc36f2ad3a581bdd7912174d1ec1f9138a
     name: cloudflare-datadog
     sources:
     - https://github.com/mozmar/cloudflare-datadog
     urls:
-    - http://tech.honestbee.com/public-charts/cloudflare-datadog-0.1.0.tgz
+    - cloudflare-datadog-0.1.0.tgz
     version: 0.1.0
   hello-world:
   - apiVersion: v1
-    created: 2017-11-09T16:33:59.016622837+08:00
+    created: 2017-11-12T17:04:58.999999+08:00
     description: Hello World chart for testing
     digest: 54f3ed3d1114872cbb72363e7088958465ca0adf28175b37656835c144f492c8
     keywords:
@@ -24,10 +24,10 @@ entries:
       name: Vincent De Smet
     name: hello-world
     urls:
-    - http://tech.honestbee.com/public-charts/hello-world-0.1.1.tgz
+    - hello-world-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2017-11-09T16:33:59.016173069+08:00
+    created: 2017-11-12T17:04:58.999703+08:00
     description: Hello World chart for testing
     digest: 4964765a314a9456befd389dec400dc110ec9643ac87e48006029ab2dafb39cc
     keywords:
@@ -38,11 +38,11 @@ entries:
       name: Vincent De Smet
     name: hello-world
     urls:
-    - http://tech.honestbee.com/public-charts/hello-world-0.1.0.tgz
+    - hello-world-0.1.0.tgz
     version: 0.1.0
   portus:
   - apiVersion: v1
-    created: 2017-11-09T16:33:59.017218085+08:00
+    created: 2017-11-12T17:04:59.000481+08:00
     description: Open Source Authorization Service and User Interface for Docker Registry.
     digest: 7b6a711d483c1c4b62b6d0280a04c9daf959833407f55ed42df9a85ff9ec6cdb
     home: http://port.us.org/
@@ -59,12 +59,12 @@ entries:
     - https://github.com/docker/distribution/
     - https://github.com/Nordstrom/kube-registry
     urls:
-    - http://tech.honestbee.com/public-charts/portus-0.1.0.tgz
+    - portus-0.1.0.tgz
     version: 0.1.0
   vault:
   - apiVersion: v1
     appVersion: 0.7.3
-    created: 2017-11-09T16:33:59.017577918+08:00
+    created: 2017-11-12T17:04:59.00085+08:00
     description: A Helm chart for Vault, a tool for managing secrets
     digest: 2eb1128213ef974930dfd1360809d6f85175f8e53de9634e2ac864fdc28ac66e
     home: https://www.vaultproject.io/
@@ -77,14 +77,14 @@ entries:
     - https://github.com/hashicorp/vault
     - https://github.com/hashicorp/docker-vault
     urls:
-    - http://tech.honestbee.com/public-charts/vault-0.1.0.tgz
+    - vault-0.1.0.tgz
     version: 0.1.0
   vault-controller:
-  - created: 2017-11-09T16:33:59.017804329+08:00
-    description: Kubernetes Vault Controller
-    digest: a40bcfc033578a86fea04e8c743ab74a5d91c0c44a9f6fe3e6b58d1ea89c7d19
+  - created: 2017-11-12T17:04:59.001215+08:00
+    description: Kubernetes Vault Controller, with RBAC support
+    digest: 7f6cf8f0071fbc732ab895fc4b4e8b1edbe3c244a7c6a90d52229e3c1ffc30e2
     name: vault-controller
     urls:
-    - http://tech.honestbee.com/public-charts/vault-controller-0.1.0.tgz
-    version: 0.1.0
-generated: 2017-11-09T16:33:59.01535986+08:00
+    - vault-controller-0.2.0.tgz
+    version: 0.2.0
+generated: 2017-11-12T17:04:58.999072+08:00
