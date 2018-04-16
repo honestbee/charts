@@ -2,18 +2,18 @@ apiVersion: v1
 entries:
   cloudflare-datadog:
   - apiVersion: v1
-    created: 2017-11-27T00:02:51.900018+07:00
+    created: 2018-04-17T00:42:56.723653786+08:00
     description: A Helm chart for cloudflare-datadog service
     digest: 76d78bc1a3fbea78bdb12dd91c77dfcc36f2ad3a581bdd7912174d1ec1f9138a
     name: cloudflare-datadog
     sources:
     - https://github.com/mozmar/cloudflare-datadog
     urls:
-    - cloudflare-datadog-0.1.0.tgz
+    - http://tech.honestbee.com/public-charts/cloudflare-datadog-0.1.0.tgz
     version: 0.1.0
   hello-world:
   - apiVersion: v1
-    created: 2017-11-27T00:02:51.901781+07:00
+    created: 2018-04-17T00:42:56.724595463+08:00
     description: Hello World chart for testing
     digest: 54f3ed3d1114872cbb72363e7088958465ca0adf28175b37656835c144f492c8
     keywords:
@@ -24,10 +24,10 @@ entries:
       name: Vincent De Smet
     name: hello-world
     urls:
-    - hello-world-0.1.1.tgz
+    - http://tech.honestbee.com/public-charts/hello-world-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: 2017-11-27T00:02:51.90123+07:00
+    created: 2018-04-17T00:42:56.72418555+08:00
     description: Hello World chart for testing
     digest: 4964765a314a9456befd389dec400dc110ec9643ac87e48006029ab2dafb39cc
     keywords:
@@ -38,11 +38,11 @@ entries:
       name: Vincent De Smet
     name: hello-world
     urls:
-    - hello-world-0.1.0.tgz
+    - http://tech.honestbee.com/public-charts/hello-world-0.1.0.tgz
     version: 0.1.0
   portus:
   - apiVersion: v1
-    created: 2017-11-27T00:02:51.902573+07:00
+    created: 2018-04-17T00:42:56.725189494+08:00
     description: Open Source Authorization Service and User Interface for Docker Registry.
     digest: 7b6a711d483c1c4b62b6d0280a04c9daf959833407f55ed42df9a85ff9ec6cdb
     home: http://port.us.org/
@@ -59,12 +59,22 @@ entries:
     - https://github.com/docker/distribution/
     - https://github.com/Nordstrom/kube-registry
     urls:
-    - portus-0.1.0.tgz
+    - http://tech.honestbee.com/public-charts/portus-0.1.0.tgz
     version: 0.1.0
+  scheduled-scaler:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-17T00:42:56.725632917+08:00
+    description: Scheduled Scaler Helm Chart
+    digest: caa278c0cf6128ad58b89e300a30e6ba85018f1bebd444cd2a5a88433c60e0e9
+    name: scheduled-scaler
+    urls:
+    - http://tech.honestbee.com/public-charts/scheduled-scaler-0.0.1.tgz
+    version: 0.0.1
   vault:
   - apiVersion: v1
     appVersion: 0.8.3
-    created: 2017-11-27T00:02:51.90295+07:00
+    created: 2018-04-17T00:42:56.726136879+08:00
     description: A Helm chart for Vault, a tool for managing secrets
     digest: 7104726c9d45124a2c5d198a7c24ea95e74602da6ac8c4f00feb6c6dd8df29e0
     home: https://www.vaultproject.io/
@@ -77,14 +87,14 @@ entries:
     - https://github.com/hashicorp/vault
     - https://github.com/hashicorp/docker-vault
     urls:
-    - vault-0.2.0.tgz
+    - http://tech.honestbee.com/public-charts/vault-0.2.0.tgz
     version: 0.2.0
   vault-controller:
-  - created: 2017-11-27T00:02:51.903197+07:00
+  - created: 2018-04-17T00:42:56.726410064+08:00
     description: Kubernetes Vault Controller, with RBAC support
     digest: 801c408006fe36a183f5a44c80318c39b8729796899fd368a9394de34a0280d2
     name: vault-controller
     urls:
-    - vault-controller-0.2.2.tgz
+    - http://tech.honestbee.com/public-charts/vault-controller-0.2.2.tgz
     version: 0.2.2
-generated: 2017-11-27T00:02:51.899673+07:00
+generated: 2018-04-17T00:42:56.723300492+08:00
